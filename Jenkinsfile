@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git url : https://github.com/IncharaM08/output.git
+        git url : 'https://github.com/IncharaM08/output.git',
           branch : 'main'
       }
     }
